@@ -1,0 +1,24 @@
+.btn:hover{
+    color: black;
+    background-color: white;
+}
+.texts:hover{
+    transform: scale(.98);
+}
+li a:hover{
+    background-color: black;
+    color: white;
+    padding: 10px 23px;
+
+}
+.active{
+    background-color: white;
+    color: black;
+}
+.logo:hover{
+    transform: scale(.95);
+}
+.blogsCards:hover{
+    background-color: rgb(236, 222, 222);
+    scale: 1.04;
+}

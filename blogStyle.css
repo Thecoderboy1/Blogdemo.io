@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+ 
+.navbar{
+    background-color: rgba(97, 31, 117);
+    padding: 5px 0px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+ 
+}
+ 
+ul li{
+    margin: 15px 0;
+    list-style: none;
+    font-weight: 680;
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    padding: 10px 23px;
+    padding-top: 10px;
+    color: white;
+    transition: all .5s  ;
+}
+.logo{
+    border: 1px solid white;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    overflow: hidden;
+     position: absolute;
+     top: 8px;
+     right: 50px;
+     cursor: pointer;
+}
+/* ================here the navbar============ */
+section.hero1{
+    height: 300px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.66);
+}
+.hero1::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url('https://picsum.photos/1920/300/?blur');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.Slowgun{
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.blogHeading{
+    /* background-color: blue; */
+    text-align: center;
+    padding: 10px;
+
+
+}
+.BlogSectionTitle{
+    font-size: 1.7rem;
+    font-weight: bold;
+    border-bottom: 3px solid black;
+}
+
+/* =================== here is the main blogs content ================== */
+.blogsContent{
+     /* height: 100vh; */
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* ==============here is the blogsCards=================== */
+.blogsCards{
+    width: 400px;
+     /* height: 250px; */
+     height: auto;
+    transition: all .3s ease-in-out;
+     border-radius: 10px;
+    padding: 15px ;
+    box-shadow: 5px 5px 10px black;
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+.blogsCards strong{
+    text-align: center;
+    color: blue;
+    padding: 10px 0px;
+    display: block;
+    font-size: 22px;
+}
+.blogsCards span{
+    font-size: 1rem;
+
+}
+/* ========here is footer================ */
+ 

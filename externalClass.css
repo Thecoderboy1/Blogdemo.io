@@ -1,0 +1,21 @@
+.dispFlex{
+    display: flex;
+}
+.width100{
+    width: 100%;
+}
+.flexDivCenterTop{
+    justify-content: center;
+    
+}
+.flexDivCenterMid{
+    justify-content: center;
+    align-items: center;
+    
+}
+.boldFont{
+    font-weight: bold;
+}
+.flexDirection{
+    flex-direction: column;
+}

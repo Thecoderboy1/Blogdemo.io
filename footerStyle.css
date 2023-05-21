@@ -1,0 +1,26 @@
+
+.footer{
+  
+  background-color:  rgba(97, 31, 117);
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    padding-bottom: 0px;
+    
+}
+.footer ul{
+    display: flex;
+}
+.footer h2{
+font-size: 1.6rem;
+padding-bottom: 10px;  
+}
+.copyrightText{
+    background-color:  rgb(60, 13, 75) ;
+    padding: 3px;
+    font-size: .9rem;
+}
+.footer span{
+    font-size: .99rem;
+    
+}
